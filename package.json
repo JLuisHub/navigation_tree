@@ -14,5 +14,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^21.2.3"
+  },
+  "dependencies": {
+    "puppeteer": "^19.2.2"
   }
 }
