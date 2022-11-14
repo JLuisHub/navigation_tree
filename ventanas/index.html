@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Web Navigation Tree</title>
+  </head>
+  <body>
+    <div>
+      <h1>Obtener &aacuterbol de navegaci&oacuten</h1>
+    </div>
+
+    <div>
+      <form action="">
+        <label>URL:</label> 
+        <input type="text" required="True" placeholder="www.ejemplo.com" name="URL" autofocus="True">
+        <button type="submit">Obtener</button>
+      </form>
+    </div>
+
+    <!-- Files JavaScript -->
+    <script src="js/renderer.js"></script>
+  </body>
+</html>
