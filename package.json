@@ -1,20 +1,16 @@
 {
-  "name": "electron-quick-start",
+  "name": "web-navigation-tree",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Aplicación para poder obtener el árbol de navegación de una página web",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/JLuisHub/navigation_tree",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "navigation_tree"
   ],
-  "author": "GitHub",
+  "author": "J. Luis Vargas",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^21.2.3"
